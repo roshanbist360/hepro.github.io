@@ -1,0 +1,173 @@
+
+body{
+	  color: #000;
+}
+
+.csit{
+	    
+}
+
+.hdr{
+	   text-align: center;
+}
+
+.csit-head-img,.select-sem{
+	  margin: 20px;
+	  padding:0px 20px;
+	  display: flex;
+	  justify-content: center;
+	  text-align: justify;
+	  font-family: sans-serif;
+}
+
+.csit-head-img img{
+      max-height: 50%;
+      max-width: 90%;
+}
+
+.txt{
+      display: flex;
+	  justify-content: center;
+}
+
+.content4 p,.txt0{
+	text-align: center;
+	font-size: 22px;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.txt10{
+	text-align: center;
+	font-size: 22px;
+	padding: 20px;
+	font-weight: bold;
+	color: #004499;
+}
+
+.sem-slt{
+	  font-size: 16px;
+	  color: #fff;
+	  font-weight: bold;
+	  width: 220px;
+	  padding: 4px 15px;
+	  background-color: #0055aa;
+	  display: flex;
+	  justify-content: center;
+}
+
+.content2,.content3,.content4,.content5{
+	   background: #cceeee;
+	   padding: 20px 0px;
+	   margin: 20px 0px;
+	   font-family: sans-serif;
+}
+
+.hdr{
+	  text-decoration: underline;
+}
+
+.hdr2{
+       font-weight: bold;
+       font-size: 22px;
+}
+
+.hdr3{
+       font-weight: bold;
+       font-size: 25px;
+}
+
+.joblist{
+	  padding-left: 40px;
+}
+
+table{
+	  border: 2px solid black;
+	  width: 40%;
+	  margin: 20px;
+}
+
+td,th{
+	  border: 1px solid black;
+}
+
+.table12{
+       display: flex;
+       margin: 40px;
+       text-align: center;
+       justify-content: center;
+   }
+
+.table12 h2{
+	 border: 2px solid blue;
+}
+
+.we-provide{
+	  padding: 20px;
+}
+
+.contact-me-4-queries{
+     	text-align: center;
+     	padding-top:20px;
+}
+
+.menulines,.main-footer{
+	  color: #fff;
+}
+
+.dropdown-sem{
+      background: #ffccff;
+      display: none; /*for dropdown on button press*/ 
+      margin:0% 10%;
+      padding: 10px;
+}
+
+.box{
+      margin: 10px;
+      background: #ffaaff;
+      margin:2% 5%;
+      display: flex;
+      justify-content: center;
+}
+
+.box a{
+      margin: 10px;
+      text-decoration: none;
+      color:#004499;
+      font-weight: bold;
+}
+
+.box2{
+	  background: #effcef;
+	  box-shadow: 2px 2px 2px #000;
+      margin:5% 10%;
+      display:none;
+}
+
+.box2 a{
+      margin: 10px;
+      text-decoration: none;
+      color:#0000ff;
+      font-weight: bold;
+}
+        @media only screen and (max-width:800px){
+                   .table12{
+                        flex-direction: column;
+                   }
+
+                   table{
+                   	    width: 80%;
+                   }
+         }
+
+           @media only screen and (max-width:520px){
+                 .csit-head-img img{
+                             max-height:250px;
+                             max-width: 100%;
+                  }
+
+            }
+
+
+
+

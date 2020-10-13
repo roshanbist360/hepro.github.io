@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	       <title>BE.IT</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" type="text/css" href="style.css">
+         <link rel="stylesheet" type="text/css" href="csit.css">
+        <!--  <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet"> -->
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="header" id="header">
+
+      	<div class="main-nav">
+
+              <div class="helloprogrammers">
+                   <p id="head_para"> <span class="anm">Hello Programmers</span></p>  
+              </div>
+                  
+            <div>
+      	          	<ul>
+      		              	<li>
+      			                	<a href="index.html">Home</a>
+                              <a href="index.html#about-us">About Us</a>
+                              <a href="index.html#services">Services</a>
+                              <a href="index.html#itcourses">IT-Courses</a>
+                              <a href="index.html#team">Team</a>
+                              <a href="index.html#contact-us">Contact-Us</a>
+      		              	</li>
+                  	</ul>
+                             <!-- Below  code is for responsive side menu for mobile and other medium devices -->
+                                <div class="navmenu">
+
+                                         <div>
+                                              <span class="menulines" onclick="openNav()">&#9776;</span>
+                                        </div>
+
+                                        <div class="sidenav" id="mySidenav">
+                                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                                                 &times;  <!--  shortcut for cross sign -->
+                                            </a>
+
+                                                <li id="list">
+                                                   <a href="index.html#header" class="fa fa-home">&ensp;Home</a>
+                                                   <br>
+                                                   <a href="index.html#about-us" class="fas fa-newspaper">&ensp;About Us</a>
+                                                   <br>
+                                                   <a href="index.html#services" class="fa fa-server">&ensp;Services</a>
+                                                   <br>
+                                                    <a href="index.html#itcourses" class="fas fa-sticky-note">&ensp;IT-Courses</a>
+                                                            <a class="itdown" href="csit.html">CSIT</a>
+                                                            <a class="itdown" href="beit.html">BE.IT</a>
+                                                    <br>
+                                                   <a href="index.html#team"class="fas fa-users">&ensp;Team</a>
+                                                   <br>
+                                                   <a href="index.html#contact-us" class="fas fa-phone">&nbsp;Contact-Us</a>
+                                                </li>
+                                          </div>
+                                  </div>
+                                 <!--  End of mobile responsive side menu -->
+      	    </div>
+        </div>
+    </div> 
+     <!-- ------------------Header section ends and actual csit section starts------------------------------
+      ------------------------------------------------------------------------------------------------------>
+     
+     <br><br><br><br>
+
+<div class="content1" onclick="closeNav()">
+    <div class="csit-head-img">
+       <img src="pou.png">   <!-- for TU csit img -->
+    </div>
+
+        <h4 class="txt10">Click below button to download respective semister notes and other study stuffs.</h4>
+    <div class="select-sem">
+          <button  class="sem-slt" id="slt-sem" onclick="openCloseSem()">Click Here To Select Your Semister</button>
+    </div>
+
+     
+     <!-------------------------------- Dropdown menu for selecting semister starts -----------------------
+        --------------------------------------------------------------------------------------------->
+          <div class="dropdown-sem" id="sem-ctrl"> 
+
+                   <div class="box">
+                     <a onclick="openCloseSem1()">Semester I</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl1">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+              
+                   <div class="box">
+                     <a onclick="openCloseSem2()">Semester II</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl2">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+              
+                   <div class="box">
+                     <a onclick="openCloseSem3()">Semester III</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl3">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+              
+                   <div class="box">
+                     <a onclick="openCloseSem4()">Semester IV</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl4">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+                  
+                   <div class="box">
+                     <a onclick="openCloseSem5()">Semester V</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl5">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+              
+                   <div class="box">
+                     <a onclick="openCloseSem6()">Semester VI</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl6">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+   
+                   <div class="box">
+                     <a onclick="openCloseSem7()">Semester VII</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl7">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+              
+                   <div class="box">
+                     <a onclick="openCloseSem8()">Semester VIII</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl8">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+          </div>
+
+        <!-------------------------------- Dropdown menu for selecting semister ends -----------------------
+        --------------------------------------------------------------------------------------------->
+</div>  <!-- Content1 ends  -->
+      
+     
+    <div class="content2"  onclick="closeNav()">
+     	 <h2 class="hdr">About BE.IT</h2>
+       <div>
+      	<p>Bachelors of Engineering in Information Technology (BE.IT) is a four year course affiliated to Pokhara University designed to provide the student with all sorts of knowledge in the field of Information Technology and Computing. Currently 4 Colleges are offering BE.IT program in Nepal.</p>
+       </div>
+        
+       <div>
+            <br>
+          <p class="hdr2">Eligibility:</p>
+             <p>Students should have scored minimum of "C" grade in all subjects in 10+2 (Secondry Level) with science stream
+              or any other equivalent 2nd division or above from University or boards recognized by Pokhara University</p>
+       </div>
+    </div> <!-- content2 div finished -->
+  
+ 
+<div class="content5" onclick="closeNav()">
+     <div class="we-provide">
+          <h3>What We Provide:</h3>
+                    <br>
+                 <p>=>Updated Best Notes:</p>
+                 <p>=>Syllabus and Micro-Syllabus:</p>
+                 <p>=>Old questions and some solutions:</p>
+                 <p>=>Books and other study stuffs:</p> 
+     </div>
+
+     <div class="contact-me-4-queries">
+                <h3>Contact Us For Any Queries Related to BEIT</h3>
+
+          <div class="team-members">
+
+              <div class="team-content">
+                   <div class="team-img">
+                       <img src="pawan.jpg">
+                  </div>
+
+                   <div class="links">
+                      <a href="https://www.facebook.com/PbKharel99" target="_blank">  <i class="fab fa-facebook fa-2x"></i> </a>
+                      <a href="https://twitter.com/Pawankharel36" target="_blank">  <i class="fab fa-twitter fa-2x"></i> </a>
+                      <a href="https://www.helloprogrammers.com/#" target="_blank">  <i class="fab fa-linkedin-in fa-2x"></i> </a> 
+                  </div>
+                                <div class="desc"><p>Pawan Kharel (BE.IT-PU)</p></div>
+              </div>
+
+
+              <div class="team-content">
+                  <div class="team-img">
+                       <img src="pm.jpg">
+                  </div>
+
+                  <div class="links">        
+                      <a href="https://www.facebook.com/PMprabinbhusal/" target="_blank">  <i class="fab fa-facebook fa-2x"></i> </a>
+                      <a href="https://twitter.com/PM_Pra_Bhu" target="_blank">  <i class="fab fa-twitter fa-2x"></i> </a>
+                      <a href="https://www.linkedin.com/feed/" target="_blank">  <i class="fab fa-linkedin-in fa-2x"></i> </a>
+                  </div>
+                             <div class="desc"><p>Prabin bhusal (BE.IT-PU)</p></div> 
+                              <!--Below div contact-us is to view perfectly when we click to contact-us in website not a part of this section-->
+                                   <br><br><br>    <div id="contact-us"></div>        
+              </div>
+
+        </div>
+      </div><!--Team section ends and contact-us section starts-->
+  </div>
+
+   <!-- ---------------------------------------------------------------------------------
+    ----------------------------footer section starts-------------------------------------->
+     <div class="footer" onclick="closeNav()">
+       <div class="footer-items">
+         <div class="he-pro">
+            <h3>HELLO PROGRAMMERS</h3>
+            <p>We happy to share our knowledge and course stuffs to our friends studying IT in Nepal. We want to see IT students 
+                  creative to compete with changing world.</p>
+         </div>
+        
+         <div class="useful-links">      
+                       <h3>USEFUL LINKS</h3> 
+                              <a href="#header">Home</a>
+                              <br>
+                              <a href="#about-us">About Us</a>
+                              <br>
+                              <a href="#services">Services</a>
+                              <br>
+                              <a href="csit.html">CSIT</a>
+                              <br>
+                              <a href="beit.html">BE.IT</a> 
+         </div>
+
+         <div class="cntd-us">
+              <h3>CONTACT-US</h3>
+            <div class="cntd-cont">
+              <p>Kathmandu Province-3 Nepal, 44600</p>
+              <h4>Phone:</h4>
+                       <p>  CSIT: 9806470952</p>
+                       <p> BE.IT: 9861389963</p>
+
+             <div class="icn">
+              <a href="https://www.facebook.com/helloprogrammers/"target="_blank"> <i class="fab fa-facebook fa-2x"></i> </a>
+              <a href="https://www.youtube.com/channel/UC_fm-Kx9DAmCu4lTgrI8FJg"target="_blank"> </a>
+              <a> <i class="fab fa-youtube fa-2x"></i> </a>
+              <a href="helloprogrammers360@gmail.com"> <i class="fas fa-envelope-open-text fa-2x" id="msg"></i> </a>
+             </div>
+            </div>
+         </div>
+
+         <div class="our-goal">
+            <h3>OUR GOAL</h3>
+            <p>All the essential notes of CSIT, BEIT, BIT and BE.Soft for Nepalese IT students with lots of news and information regarding new Technology...</p>
+         </div>
+
+     </div>   
+  </div><!--footer section ends and main-footer section starts-->
+
+                <div class="main-footer">
+                            <p>&copy; Copyright Hello Programmers.<br> All rights reserved.</p>
+                </div> 
+
+
+           <!--  ------------------------ javascript starts-------------------------- -->
+        <script type="text/javascript">
+          // for responsive sidebar navigation menu of header navigation
+           function openNav(){
+                  document.getElementById('mySidenav').style.width="200px";
+           }
+
+            function closeNav(){
+                  document.getElementById('mySidenav').style.width="0";
+            } // responsive sidebar navigation menu ends
+
+
+           // for dropdown select semister
+                  var state=0;  //state value 0 for closed dropdown state and 1 for opened state
+           function openCloseSem(){
+                if(state==0) {   
+                               openSem();
+                               state++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem();
+                                state--;
+                                return false;   
+                     }
+           }
+
+           function openSem(){
+                   document.getElementById('sem-ctrl').style.display="block";
+           }
+
+            function closeSem(){
+                   document.getElementById('sem-ctrl').style.display="none";
+           }
+
+            // for dropdown after selecting semister,on clicking respective semister
+                  var stat=0;  //state value 0 for closed dropdown state and 1 for opened state
+           function openCloseSem1(){
+                if(stat==0) {   
+                               openSem1();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem1();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem1(){
+                   document.getElementById('sem-ctrl1').style.display="block";
+           }
+
+            function closeSem1(){
+                   document.getElementById('sem-ctrl1').style.display="none";
+           }
+    
+             // for sem2
+           function openCloseSem2(){
+                if(stat==0) {   
+                               openSem2();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem2();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem2(){
+                   document.getElementById('sem-ctrl2').style.display="block";
+           }
+
+            function closeSem2(){
+                   document.getElementById('sem-ctrl2').style.display="none";
+           }
+            
+              // for sem3
+           function openCloseSem3(){
+                if(stat==0) {   
+                               openSem3();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem3();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem3(){
+                   document.getElementById('sem-ctrl3').style.display="block";
+           }
+
+            function closeSem3(){
+                   document.getElementById('sem-ctrl3').style.display="none";
+           }
+
+             // for sem4
+           function openCloseSem4(){
+                if(stat==0) {   
+                               openSem4();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem4();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem4(){
+                   document.getElementById('sem-ctrl4').style.display="block";
+           }
+
+            function closeSem4(){
+                   document.getElementById('sem-ctrl4').style.display="none";
+           }
+            
+              // for sem5
+           function openCloseSem5(){
+                if(stat==0) {   
+                               openSem5();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem5();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem5(){
+                   document.getElementById('sem-ctrl5').style.display="block";
+           }
+
+            function closeSem5(){
+                   document.getElementById('sem-ctrl5').style.display="none";
+           }
+
+             // for sem6
+           function openCloseSem6(){
+                if(stat==0) {   
+                               openSem6();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem6();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem6(){
+                   document.getElementById('sem-ctrl6').style.display="block";
+           }
+
+            function closeSem6(){
+                   document.getElementById('sem-ctrl6').style.display="none";
+           }
+
+             // for sem7
+           function openCloseSem7(){
+                if(stat==0) {   
+                               openSem7();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem7();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem7(){
+                   document.getElementById('sem-ctrl7').style.display="block";
+           }
+
+            function closeSem7(){
+                   document.getElementById('sem-ctrl7').style.display="none";
+           }
+
+             // for sem8
+           function openCloseSem8(){
+                if(stat==0) {   
+                               openSem8();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem8();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem8(){
+                   document.getElementById('sem-ctrl8').style.display="block";
+           }
+
+            function closeSem8(){
+                   document.getElementById('sem-ctrl8').style.display="none";
+           }
+
+        </script>
+</body>
+</html>

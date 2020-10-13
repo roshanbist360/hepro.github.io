@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	       <title>Hello Programmers</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" type="text/css" href="style.css">
+        <!--  <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet"> -->
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+      
+      <div class="header" id="header">
+
+      	<div class="main-nav">
+
+              <div class="helloprogrammers">
+                   <p id="head_para"> <span class="anm">Hello Programmers</span></p>  
+              </div>
+                  
+            <div>
+      	          	<ul>
+      		              	<li>
+      			                	<a href="#header">Home</a>
+      			                 	<a href="#about-us">About Us</a>
+      			                 	<a href="#services">Services</a>
+      			                	<a href="#itcourses">IT-Courses</a>
+                              <a href="#team">Team</a>
+                              <a href="#contact-us">Contact-Us</a>
+      		              	</li>
+                  	</ul>
+                           <!-- Below  code is for responsive side menu for mobile and other medium devices -->
+                                <div class="navmenu">
+
+                                         <div>
+                                              <span class="menulines" onclick="openNav()">&#9776;</span>
+                                        </div>
+
+                                        <div class="sidenav" id="mySidenav">
+                                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                                                 &times;  <!--  shortcut for cross sign -->
+                                            </a>
+
+                                              <li id="list">
+                                                 <a href="#header" class="fa fa-home"  onclick="closeNav()">&ensp;Home</a>
+                                                   <br>
+                                                 <a href="#about-us" class="fas fa-newspaper"  onclick="closeNav()">&ensp;About Us</a>
+                                                   <br>
+                                                 <a href="#services" class="fa fa-server" onclick="closeNav()">&ensp;Services</a>
+                                                   <br>
+                                                  <a href="#itcourses" class="fas fa-sticky-note" onclick="closeNav()">&ensp;IT-Courses</a>
+                                                            <a class="itdown" href="csit.html">CSIT</a>
+                                                            <a class="itdown" href="beit.html">BE.IT</a>
+                                                    <br>
+                                                  <a href="#team"class="fas fa-users" onclick="closeNav()">&ensp;Team</a>
+                                                   <br>
+                                                  <a href="#contact-us" class="fas fa-phone" onclick="closeNav()">&nbsp;Contact-Us</a>
+                                                </li>
+                                          </div>
+                                  </div>
+                                 <!--  End of mobile responsive side menu -->
+      	    </div>
+        </div>
+                  <div class="main-content" onclick="closeNav()">
+                         <p id="main-content">This website is especially designed for all students belonging to IT sector
+                         providing best handwritten notes and all essential study materials to IT students.We are mainly active 
+                         on following two social platforms.Stay connected to get recent updates.</p>
+
+                        <div class="social-media">
+
+                              <div class="facebook" >
+                               <a href="https://www.facebook.com/helloprogrammers/" target="_blank"> <img src="hp_logo2.jpg">
+                                   <div class="desc" >
+                                       <a href="https://www.facebook.com/helloprogrammers/" target="_blank"> Facebook </a>
+                                   </div>
+                               </a>
+                              </div>
+
+                              <div class="youtube">
+                               <a href="https://www.youtube.com/channel/UC_fm-Kx9DAmCu4lTgrI8FJg" target="_blank"> 
+                                <img src="hp_logo3.jpg">
+                                     <div class="desc">
+                                      <a href="https://www.youtube.com/channel/UC_fm-Kx9DAmCu4lTgrI8FJg" target="_blank"> Youtube </a>
+                                     </div>
+                               </a>
+                              </div>
+                                     <!--Below div about-us is to view perfectly when we click to about us in website not a part of this section-->
+                                        <div id="about-us"></div>
+                        </div>
+                  </div>
+
+      </div><!--  Header section ends and about-us section starts -->
+
+
+    <div class="about-us" onclick="closeNav()">
+                          <h2>About Us</h2>
+          <div class="abt-head">We are the group of IT students of 2nd Year studying in Nepal who wants to provide all essential stuffs to IT students of Nepal for better study.Currently we are mainly working on study materials for Bsc.CSIT and BEIT. We are delightly greatful and happy to share our knowledge and course stuffs to our friends studying IT in Nepal.
+          </div>
+      
+      <div class="img-n-content">
+
+        <div class="about-img">
+            <img src="about-img.svg" height="450px" width="400px">
+        </div>
+
+        <div class="about-head">
+           <h2 class="our-features">Our features:</h2>
+
+            <div class="about-content">
+             <div class="icon">  <i class="fas fa-signal"></i>  </div>      <h3>Interactive Team</h3>
+             <p>We are very interactive guys from different part of Nepal.
+             We are always active on social media to interact with you.We are more active on facebook
+                    than other social medias. </p>
+            </div> 
+
+            <div class="about-content">
+             <div class="icon"> <i class="fas fa-server"></i>  </div>      <h3>Remain Up-To-Date</h3>
+             <p>Our team is very updated so you can get latest news  and information on technology and we try to prepare and upload study materials as fast as possible.</p>
+            </div>
+
+            <div class="about-content">
+             <div class="icon"> <i class="fas fa-users"></i>  </div>        <h3>Hardworking Team</h3>
+             <p>We work hard so that students will get best,easy and exam suitable study materials.Also we gurantee that our notes are best among all sites in Nepal. </p>
+           </div>
+        </div>
+      </div>
+                        <!--Below div services is to view perfectly when we click to services in website not a part of this section-->
+                                <div id="services"></div>
+    </div><!--About-us section ends and services section starts-->
+
+    <div class="services" onclick="closeNav()">
+                             <br> 
+                             <h2>Services</h2>
+            <div class="head1">We are proud and happy to share notes,news,information,technical guide and more to new commers in IT field with our services as below.</div>
+
+         <div class="ltg">
+              <div class="ltg-desc">
+                 <div class="icon2">  <i class="fas fa-laptop-code fa-2x"></i>  </div>
+                  <h3>Latest Tech Guide</h3>
+                        <p>By our delightful and hardworking teams we assure you to provide latest trends of IT fields with better carrier guide.</p>
+             </div>
+         </div>
+
+          <div class="un">
+              <div class="un-desc">
+                <div class="icon2">  <i class="fas fa-sticky-note fa-2x"></i>  </div>
+                  <h3>Updated Notes</h3>
+                        <p>Our main aim is to provide latest syllabus based handwritten notes currently for Bsc.CSIT,BEIT.</p>
+             </div>
+          </div>
+
+
+         <div class="nai">
+              <div class="nai-desc">
+                 <div class="icon2">  <i class="fas fa-newspaper fa-2x"></i>  </div>
+                  <h3>News and Info</h3>
+                        <p>We will try to provide latest news and information so that our users will be up to date with changing technology.</p>
+             </div>
+         </div>
+         
+          <div class="ce">
+              <div class="ce-desc">
+                 <div class="icon2">  <i class="fas fa-code fa-2x"></i>  </div>
+                  <h3>Code Examples</h3>
+                        <p>We provide some code examples and challenge you with many questions.</p>
+             </div>
+         </div>
+                  <!--Below div itcourses is to view perfectly when we click to itcourses in website not a part of this section-->
+                          <br><br><br>   <div id="itcourses"></div>
+    </div><!--Services section ends and IT Courses section starts-->
+    
+
+    <div class="IT-Courses" onclick="closeNav()">
+                             <br> 
+                            <h2>IT Courses</h2>
+            <div class="head"> TU and PoU are offering three different IT Programmes (CSIT,BEIT,BIT) as well as Software Engineering by Pokhara University in Nepal.</div>
+
+      <div class="co-contents">
+         <div class="co-csit">
+              <div class="csit-desc">
+                  <h3>CSIT(TU)</h3>
+                        <p>Here we provide latest syllabus based handwritten csit notes,books,old questions,micro-syllabus
+                         and other study materials of CSIT.</p>
+                           <a href="csit.html"> <h3 id="download">Download Study Stuffs</h3> </a>
+              </div>
+         </div>
+          
+         <div class="co-beit">
+              <div class="beit-desc">
+                  <h3>BE.IT (PoU)</h3>
+                        <p>Here we provide latest syllabus based notes,books,old questions, college information 
+                        and many other study materials of BE.IT. </p> 
+                            <a href="beit.html"> <h3 id="download">Download Study Stuffs</h3> </a>
+             </div>
+         </div>
+        
+          <div class="co-bit-soft">
+              <div class="it-desc">
+                  <h3>BIT and BE.Software</h3>
+                        <br>
+                        <p>Coming Soon... </p>
+             </div>
+         </div>
+
+
+         <div class="colleges"> 
+                  <div class="clz-desc">
+                            <h3>Total No. of IT Related Colleges in Nepal:</h3>
+                     <div class="clz">
+                          <p>BE.IT College: 4</p>
+                
+                     </div>
+
+                      <div class="clz">
+                          <p>CSIT College: 57</p>
+                     </div>
+
+                      <div class="clz">
+                          <p>BIT College: 9</p>
+                     </div>
+
+                      <div class="clz">
+                          <p>BE.Soft College: 1</p>
+                     </div>
+                                
+                  </div>
+         </div>
+                             <!--Below div team is to view perfectly when we click to team in website not a part of this section-->
+                          <br><br><br>        <div id="team"></div>
+     </div>
+    </div><!--IT Courses section ends and Team section starts-->
+
+    
+    <div class="our-team" onclick="closeNav()">
+           <h2>Our Team</h2>
+               <div class="head1">We are the three who founded Hello Programmers and launch this project of sharing notes and information.</div>
+
+            <div class="team-members">
+              
+              <div class="team-content">
+                  <div class="team-img">
+                       <img src="roshan.jpg">
+                  </div>
+
+                  <div class="links">
+                      <a href="https://www.facebook.com/roshanbist.roshanbist.3"target="_blank"> <i class="fab fa-facebook fa-2x"></i> </a>
+                      <a href="https://twitter.com/bist360" target="_blank">  <i class="fab fa-twitter fa-2x"></i> </a>
+                      <a href="https://www.linkedin.com/in/roshan-bist" target="_blank"> <i class="fab fa-linkedin-in fa-2x"></i> </a> 
+                  </div>
+                            <div class="desc"><p>Roshan Bist (Bsc.CSIT-TU)</p></div>
+              </div>
+
+
+              <div class="team-content">
+                   <div class="team-img">
+                       <img src="pawan.jpg">
+                  </div>
+
+                   <div class="links">
+                      <a href="https://www.facebook.com/PbKharel99" target="_blank">  <i class="fab fa-facebook fa-2x"></i> </a>
+                      <a href="https://twitter.com/Pawankharel36" target="_blank">  <i class="fab fa-twitter fa-2x"></i> </a>
+                      <a href="https://www.helloprogrammers.com/#" target="_blank">  <i class="fab fa-linkedin-in fa-2x"></i> </a> 
+                  </div>
+                                <div class="desc"><p>Pawan Kharel (BE.IT-PU)</p></div>
+              </div>
+
+
+              <div class="team-content">
+                  <div class="team-img">
+                       <img src="pm.jpg">
+                  </div>
+
+                  <div class="links">        
+                      <a href="https://www.facebook.com/PMprabinbhusal/" target="_blank">  <i class="fab fa-facebook fa-2x"></i> </a>
+                      <a href="https://twitter.com/PM_Pra_Bhu" target="_blank">  <i class="fab fa-twitter fa-2x"></i> </a>
+                      <a href="https://www.linkedin.com/feed/" target="_blank">  <i class="fab fa-linkedin-in fa-2x"></i> </a>
+                  </div>
+                             <div class="desc"><p>Prabin bhusal (BE.IT-PU)</p></div> 
+                              <!--Below div contact-us is to view perfectly when we click to contact-us in website not a part of this section-->
+                                   <br><br><br>    <div id="contact-us"></div>        
+              </div>
+
+        </div>
+      </div><!--Team section ends and contact-us section starts-->
+      
+
+    <div class="contact-us" onclick="closeNav()">
+                    <h2>Contact-Us</h2>
+      <div class="cntd">
+
+          <form class="form" onsubmit="return validation()">
+                              <!-- &ensp; for space  --> 
+                     <h3 form-head>&ensp; Message to Hello Programmers:</h3>
+                     <hr>
+              <div class="align">
+                <label>&ensp;Your Name:</label>
+                 <span id="username"></span>
+                <input type="text" class="name" id="user" autocomplete="off">
+                <br>
+                <label>&ensp;Your Email:</label>
+                <span id="emailid"></span>
+                <input type="text"     class="email" id="email" autocomplete="off">
+                <br>
+                <label>&ensp;Subject:</label>
+                 <span id="subjectid"></span>
+                <input type="text"     class="subject" id="subject" autocomplete="off">
+                <br>
+                <label>&ensp;Message:</label>
+                 <span id="messageid"></span>
+                <input type="text" class="message" id="message" autocomplete="off">
+              </div>
+
+               <br>
+                <input type="submit"  value="&ensp;Send Message" class="button" id="button">
+
+          </form>
+          
+          <div class="ph-n-mail">
+                 <div class="phone">
+                   <h3>Contact by phone number:&ensp;<i class="fas fa-phone "></i></h3>
+                    <!-- ensb above used is for double space in html,for single space nbsp,for 4 spaces emsp -->
+                   <p>For Bsc.CSIT students:9806470952<br>For BE.IT students:9861389963</p>
+                 </div>
+                 
+                   <br>
+                 <div class="mail">
+                   <h3>Contact by Email:&ensp;<i class="fas fa-envelope-open-text "></i></h3>
+                   <p>Mail-to:helloprogrammers360@gmail.com</p>
+                 </div>
+          </div>
+
+      </div>
+    </div><!--Contact-Us section ends and footer section starts-->
+
+
+     <div class="footer" onclick="closeNav()">
+       <div class="footer-items">
+         <div class="he-pro">
+            <h3>HELLO PROGRAMMERS</h3>
+            <p>We happy to share our knowledge and course stuffs to our friends studying IT in Nepal. We want to see IT students 
+                  creative to compete with changing world.</p>
+         </div>
+        
+         <div class="useful-links">      
+                       <h3>USEFUL LINKS</h3> 
+                              <a href="#header">Home</a>
+                              <br>
+                              <a href="#about-us">About Us</a>
+                              <br>
+                              <a href="#services">Services</a>
+                              <br>
+                              <a href="csit.html">CSIT</a>
+                              <br>
+                              <a href="beit.html">BE.IT</a> 
+         </div>
+
+         <div class="cntd-us">
+              <h3>CONTACT-US</h3>
+            <div class="cntd-cont">
+              <p>Kathmandu Province-3 Nepal, 44600</p>
+              <h4>Phone:</h4>
+                       <p>  CSIT: 9806470952</p>
+                       <p> BE.IT: 9861389963</p>
+
+             <div class="icn">
+              <a href="https://www.facebook.com/helloprogrammers/"target="_blank"> <i class="fab fa-facebook fa-2x"></i> </a>
+              <a href="https://www.youtube.com/channel/UC_fm-Kx9DAmCu4lTgrI8FJg"target="_blank"> </a>
+              <a> <i class="fab fa-youtube fa-2x"></i> </a>
+              <a href="helloprogrammers360@gmail.com"> <i class="fas fa-envelope-open-text fa-2x" id="msg"></i> </a>
+             </div>
+            </div>
+         </div>
+
+         <div class="our-goal">
+            <h3>OUR GOAL</h3>
+            <p>All the essential notes of CSIT, BEIT, BIT and BE.Soft for Nepalese IT students with lots of news and information regarding new Technology...</p>
+         </div>
+
+     </div>   
+  </div><!--footer section ends and main-footer section starts-->
+
+                <div class="main-footer">
+                            <p>&copy; Copyright Hello Programmers.<br> All rights reserved.</p>
+                </div>  
+
+ <!--  ------------------------ javascript starts-------------------------- -->
+        <script type="text/javascript">
+          // for responsive sidebar navigation menu of header navigation
+           function openNav(){
+                  document.getElementById('mySidenav').style.width="200px";
+           }
+
+            function closeNav(){
+                  document.getElementById('mySidenav').style.width="0";
+           }
+
+           // for form validation
+              function validation(){
+                      // Username validation
+                   var user=document.getElementById('user').value;
+                   if(user==""){
+                     document.getElementById('username').innerHTML="**Username not filled**";
+                     return false;
+                   }
+                   
+                   if((user.length<3) || (user.length>20)){
+                     document.getElementById('username').innerHTML="**Invalid username  length**";
+                     return false;
+                   }
+
+                   if(!isNaN(user)){
+                     document.getElementById('username').innerHTML="**Numbers are not allowed**";
+                     return false;
+                   }
+                       // Email validation
+                   var email=document.getElementById('email').value;
+                   if(email==""){
+                     document.getElementById('emailid').innerHTML="**Email not filled**";
+                     return false;
+                   }
+
+                   if((email.length<8) || (email.length>30)){
+                     document.getElementById('emailid').innerHTML="**Invalid Email ID**";
+                     return false;
+                   }
+
+                   if(!isNaN(email)){
+                     document.getElementById('emailid').innerHTML="**Invalid Email ID**";
+                     return false;
+                   }
+
+                   if(email.indexOf('@')<=0){
+                     document.getElementById('emailid').innerHTML="**Invalid Email ID**";
+                     return false;
+                   }
+
+                   if((email.charAt(email.length-4)!='.') && (email.charAt(email.length-3)!='.')){
+                     document.getElementById('emailid').innerHTML="**Invalid Email ID**";
+                     return false;
+                   }
+                          // Subject validation
+                   var subject=document.getElementById('subject').value;
+                   if(subject==""){
+                     document.getElementById('subjectid').innerHTML="**Subject not filled**";
+                     return false;
+                   }
+
+                   if((subject.length<3) || (subject.length>30)){
+                     document.getElementById('subjectid').innerHTML="**Invalid subject  length**";
+                     return false;
+                   }
+
+                   if(!isNaN(subject)){
+                     document.getElementById('subjectid').innerHTML="**Numbers are not allowed**";
+                     return false;
+                   }
+
+                           // Message validation
+                   var message=document.getElementById('message').value;
+                   if(message==""){
+                     document.getElementById('messageid').innerHTML="**Message not filled**";
+                     return false;
+                   }
+
+                    if((message.length<2) || (message.length>500)){
+                     document.getElementById('messageid').innerHTML="**Invalid message  length**";
+                     return false;
+                   }
+
+              }
+        </script>
+</body>
+</html>

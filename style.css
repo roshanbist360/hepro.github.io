@@ -1,0 +1,1250 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{ 
+      background-color: #fff;
+      font-size: 19px;
+      height: auto;
+      width: auto; 
+      color: #fff;
+      overflow-x: hidden;
+}
+
+html{
+       scroll-behavior: smooth;
+}
+
+.main-nav{
+	        background-color:#0055aa; 
+          position:fixed; 
+          width: 100%;
+          height: auto;
+          z-index: 10;
+}
+
+.header{
+      /*background-image: linear-gradient( 95deg,rgba(255,50,255,0.9) 5%,rgb(0,0,255,0.8) 40%,rgb(255,50,255,0.9) 100%);*/
+      background: #0077cc;
+	    height:auto;
+	    width: 100%;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;     
+}
+
+
+ul{
+  float: right;
+	margin-right: 20px;
+}
+
+.helloprogrammers{  
+	         font-size: 140%;
+           margin: 10px;
+	         color:#00ffff;
+}
+
+ li{
+ 	list-style: none;
+	margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+ li a{
+	     text-decoration: none;
+       margin-right: 20px;
+       font-size: 130%;
+       color: #fff;
+}
+
+ li a:hover{
+            text-decoration: none;
+            text-shadow: 3px 2px 6px #000; 
+            color:#91ff35;
+}
+
+/*Below  code is for responsive side menu for mobile and other medium devices*/
+.navmenu{
+            float: right;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            height: 50px;
+            width: 40px;
+            font-size: 30px;
+            cursor: pointer;
+            display: none;
+       }
+
+.sidenav{
+            float: right;
+            height: 100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 12;
+            background:#5f6caa;
+            overflow-x: hidden;
+            display:flex;
+            flex-direction: column;
+            transition: all 0.5s;
+        }
+
+    #list{   
+            list-style: none;
+            margin:15px 15px;
+            padding: 10px;
+         }
+
+ .sidenav a{
+        color: #fff;
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        padding-left: 5px;
+    }
+
+  .sidenav a:hover{
+        color: #f29f05;
+    }
+
+.closebtn{
+           margin-top: 25px;
+           margin-left: 5px;
+           font-size: 30px!important;
+           color: white;
+           text-decoration: none;
+}
+
+.itdown{
+     margin-left: 20%;
+     margin-top: 10px;
+     font-weight: bold;
+     font-size: 16px!important;
+}
+
+/*End of mobile responsive side menu*/
+
+.main-content{
+             font-family: sans-serif;
+	           color:#fff;
+	           text-align: center;
+             padding:30px 0px;
+	           padding-top: 150px;
+             font-size: 105%; 
+           }
+
+#main-content{
+             max-height:auto;
+             max-width: 90%;
+             padding: 20px;
+             text-align: justify;
+}
+
+  .anm{    
+        	border-radius:50px; 
+          padding: 12px;
+          animation: anm 2s infinite; 
+          box-shadow: 5px 2px 15px #00ffff,-5px -2px 15px #00ffff; 
+          float: left;
+  }
+  
+          @keyframes anm{
+                     50%{color:#00ffff;}
+                     100%{color:#91ff35;}
+                  }
+.social-media{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0px;
+}
+
+.social-media .desc{
+        margin-bottom: 20px;
+}
+
+.social-media img{
+                   height: 80px;
+                   width: 80px;
+                   align-content: center;
+                   border-radius:60px;
+                }
+
+.social-media img:hover{ 
+                  border: 3px solid #91ff35;                        
+}
+
+.desc a{  
+           text-decoration: none;
+           color: #fff;
+           font-weight:bold;
+           font-size: 105%;
+        }  
+
+.desc a:hover{
+                color:#91ff35;
+                text-shadow: 3px 2px 4px #000;
+        }
+
+/*Header section ends here and about-us section starts */
+
+ .about-us {
+            background-color: #ffe6ff;
+            color: #000;
+            padding:30px;
+            text-align:center;
+            border-top:25px solid #fff; 
+ }
+
+.abt-head{
+           text-align: justify;
+           max-width: 100%;
+           padding-left: 0px;
+}
+
+.img-n-content{
+           display: flex;
+}
+
+ .about-img{ 
+             max-height: 75vh;
+             max-width: 40%; 
+             padding-right: 20px;
+             overflow: hidden;
+ }
+
+.about-head{  
+              margin: 5px; 
+              text-align: left;
+              max-width: 60%;
+}
+
+.our-features{ 
+               text-decoration: underline;
+}
+
+.about-content{
+               margin: 10px;
+               padding: 15px;
+ }
+
+.about-head h4,p{
+                margin-left: 40px; 
+}
+
+.icon{
+        height: 80px;
+        width: 35px;
+        padding: 30px 5px;
+        border-radius: 50px;
+        color: blue;
+        float:  left;
+        margin: 10px;
+        border: 2px solid blue;
+}
+
+/*--About-us section ends and services section starts */
+
+.services{
+            background-color: #cce6ff;
+            color: #000;
+            text-align:center;
+            padding: 20px;
+            border-top:25px solid #fff;
+}
+
+.head{
+              text-align:justify;
+              display: flex;
+              margin: 0px 30px;
+              justify-content: center;
+}
+
+.ltg, .un{
+          display: inline-flex;
+}
+
+.nai, .ce{
+          display: inline-flex;
+}
+
+.ltg, .un, .nai, .ce{
+      height:200px; 
+      width:400px;
+      background-color: #fff;
+      margin: 20px;
+      border-radius: 15px;
+}
+
+.ltg-desc, .un-desc, .nai-desc, .ce-desc{
+           text-align: justify;
+           height:200px; 
+           width:400px;
+           padding:5%;
+}
+
+.icon2{
+        height: 100px;
+        width: 50px;
+        padding: 6px;
+        color: blue;
+        float:  left;
+        margin:20px 0px;
+        margin-right: 20px; 
+}
+/*--Services section ends and IT Courses section starts */
+.IT-Courses{
+            background-color: #cce6ff;
+            color: #000;
+            border-top:25px solid #fff; 
+            text-align: center;
+          }
+
+.co-contents p{
+               text-align:left;  
+}
+
+.co-csit,.co-beit,.co-bit-soft,.colleges{
+            background-color: #fff;
+            max-height: 230px;
+            max-width: 420px;
+            margin: 20px;
+            border-radius:20px; 
+}
+
+.co-csit,.co-beit{
+              display: inline-flex;
+}
+
+.co-bit-soft,.colleges{
+                 display: inline-flex;
+}
+
+.csit-desc,.beit-desc,.it-desc,.clz-desc{ 
+            height: 235px;
+            width: 420px;  
+            padding: 20px;
+            text-align: justify;        
+}
+
+.csit-desc h3,.beit-desc h3,.it-desc h3,.clz-desc h3{
+            text-align: center;
+}
+
+.co-contents a{
+                color: #0055aa;
+                text-decoration: none;
+                margin: 20px;
+}
+
+.co-contents a:hover{
+                      text-decoration: underline;
+                      color: #0055ff;
+}
+
+.no-clz p{
+            font-size: 250%;
+            padding-right: 40px;
+}
+
+.clz{
+      margin: 10px;
+}
+/* IT Courses section ends and Team section starts */
+
+ .our-team {
+            background-color: #ffe6ff;
+            color: #000;
+            padding:40px;
+            margin-top: 25px;
+            text-align:center;
+ }
+
+ .head1{
+              text-align:justify;
+              display: flex;
+              width: 100%;
+              justify-content: center;
+}
+
+.team-members{
+        display:flex; /* Initialization of flex box */
+        justify-content: center;
+        margin-top: 30px; 
+        max-width: 100%;
+ }
+
+.team-content{
+           max-height: 70vh;
+           width: 280px;
+           margin: 20px;
+           position:relative;
+        }
+
+.team-content img{
+           max-height: 350px;
+           max-width: 280px;
+           border-radius: 20px;
+           border: 4px solid #007bff;
+        }
+
+ .team-content .desc{
+         padding: 10px;
+         font-size: 90%;
+         background-color: #000;
+         color: #fff;
+         margin-top: 15px;
+         text-align: left;
+         font-family:sans-serif;
+ }
+
+
+ .links{ 
+         position: absolute;
+         top: 55%;
+         left: 2%;
+         right: 2%;
+         padding: 10px;
+         background-color: #007bff;
+         clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+ }
+
+.links i{     
+                text-decoration: none;
+                border-radius: 60px;
+                padding: 5px;
+                margin: 5px;
+                background-color: #fff;
+                color: #007bff;        
+ } 
+
+ .links i:hover{
+            color: #0000ff;
+            background-color:#fff;
+ }
+/* Team section ends and Contact us secftion starts */
+
+ .contact-us {
+            background-color:#dddddd;
+            color: #000;
+            margin-top: 25px;
+            padding: 40px 30px;
+            text-align: center;
+            font-family: sans-serif;
+           }
+
+ .cntd{
+           display:flex;
+           padding: 5px;
+}
+
+ .form{
+        width: 60%;
+        padding: 40px;
+}
+ 
+ .align{
+       text-align: left;
+ } 
+
+ #username,#emailid,#subjectid,#messageid{
+     color:red; 
+ }
+
+.ph-n-mail{
+        width: 40%;
+        margin: 10px;
+        margin-top: 5%;
+}
+
+.name,.email,.subject{
+       border: 1px solid black;
+       border-radius: 2px;
+       height: 30px;
+       width: 100%;
+       margin: 10px;
+       padding: 10px;
+       background-color: #eeeeee;
+}
+
+.message{
+       border: 1px solid black;
+       border-radius: 2px;
+       height: 80px;
+       width: 100%;
+       margin: 10px;
+       padding: 10px;
+       background-color: #eeeeee;
+}  
+
+.button{
+         width:50%;
+         height:35px;
+         margin: 20px;
+         background-color:#069;
+         color: #fff;
+         border-radius: 5px;
+         font-size: large;
+ }
+
+.button:hover{
+        background-color: #06c;
+}
+
+
+.fa-phone, .fa-envelope-open-text{
+        color: #06f;
+}
+
+
+/*Contact-Us section ends and Footer secftion starts */
+
+.footer{
+         background-color:#00428a;
+         color: #fff;
+         margin-top: 25px;
+         padding: 20px 40px;
+         font-size: 17px;
+         text-align: justify; 
+         font-family: sans-serif;
+}
+
+.footer-items{
+        display: flex;
+        justify-content:space-between;
+}
+
+.he-pro{
+        width:30%;
+        padding: 10px;
+  }
+
+.useful-links{
+         width:22%;
+         padding: 10px;
+ }
+
+.useful-links a{
+         color: #fff;
+         text-decoration: none;
+         margin: 10px;
+}
+
+.useful-links a:hover{
+         color: #91ff35;
+         text-shadow: 2px 2px 2px #000;
+}
+
+.cntd-us{ 
+         width:28%;
+         padding: 10px;
+}
+
+.icn i,#msg{
+      color: #fff;
+      margin:5px 5px;
+      padding: 10px;
+      margin: 6px;
+      font-size: large;
+      background-color:#2279c7;
+      border-radius: 50px;
+}
+
+.icn  #msg:hover{
+      background-color: #2299f7;
+}
+
+.icn i:hover{
+      background-color:#2299f7;
+}
+
+.our-goal{
+         width:30%;
+         padding: 10px; 
+}
+
+.he-pro p,.cntd-us p,.our-goal p{
+        padding-right:50px;
+        font-size: 17px;
+}
+
+/*footer section ends and main-footer secftion starts */
+.main-footer{
+          background-color:#0055aa; 
+          height: 10vh;
+          width: 100%;
+          text-align: center;
+          padding: 5px;
+          }
+   
+     /* --------------------------------------------------------------------
+                  finally started below media queries for responsiveness
+        ---------------------------------------------------------------------*/
+        
+        @media only screen and (max-width:1150px){
+
+                   /* header*/
+                     #head_para{
+                          font-size: 95%;
+                          margin-left: 0px;
+                          padding-left: 0px;
+                     }
+
+                  /* footer*/
+                  .he-pro p,.cntd-us p,.our-goal p{
+                          padding-right:20px;
+                    }
+        }
+
+        @media only screen and (max-width:1050px){
+                /* header*/
+                .main-nav ul{
+                               display: none;
+                 }
+
+                 .navmenu{
+                           display: block;
+                 }
+
+                 /*footer*/
+                  .useful-links li {
+                           margin-top: 60px;
+                  }
+
+                   .he-pro p,.cntd-us p,.our-goal p{
+                          padding-right:0px;
+                    }
+        } 
+
+           @media only screen and (max-width:942px){
+                 .about-us,.services,.IT-Courses,.our-team,.contact-us,.main-content{
+                             font-size: 19px;
+                  }
+
+                  .footer p,a{
+                             font-size: 16px;
+                  }
+               /* about us*/
+                 .about-img img{
+                                 width: 350px;
+                 }
+
+
+             /*services*/
+                  .ltg, .un, .nai, .ce{
+                             width:360px;
+                            }
+
+                 .ltg-desc, .un-desc, .nai-desc, .ce-desc{
+                             width: 360px;
+                            }
+
+              /*IT courses*/
+                  .co-csit,.co-beit,.co-bit-soft,.colleges{
+                                             width: 380px;
+                                             }
+ 
+                  .csit-desc,.beit-desc,.it-desc,.clz-desc{ 
+                                          width: 380px;          
+                                          }
+
+                /*Our team*/
+                 .team-content .desc p{
+                           font-size: 90%;
+                           margin-left: 10px;
+                  }
+
+                   .team-content img{
+                                  max-height: 350px;
+                                  max-width: 240px;
+                                 }
+
+                  .links{
+                          top: 210px;
+                  }
+                
+              /*footer's contact us/content*/
+                     .cntd-cont{
+                                height: 230px;
+                                width: 180px;
+                                padding-left: 0px;
+                               }    
+           } 
+       
+      
+    @media only screen and (max-width:880px){
+                      .our-team{
+                             font-size: 18px;
+                      }
+                    /* header*/
+                     #head_para{
+                          font-size: 95%;
+                          margin-left: 0px;
+                          padding-left: 0px;
+                     }
+
+                        /*header   */
+                  .social-media img{
+                                 height: 70px;
+                                 width: 70px;
+                             }
+
+                  /* our-team*/
+                .team-content .desc p{
+                           margin:0px 10px;
+                           font-size: 95%;
+                  }
+
+     @media only screen and (max-width:862px){
+                  .about-us{
+                            font-size: 17px;
+                  }
+                  .services,.IT-Courses,.our-team,.contact-us,.main-content{
+                             font-size: 18px;
+                  }
+
+                      /* about us*/
+                       .about-img img{
+                                      width: 320px;
+                          }
+
+
+                   /*services*/
+                  .ltg, .un, .nai, .ce{
+                             width:340px;
+                            }
+
+                 .ltg-desc, .un-desc, .nai-desc, .ce-desc{
+                             width: 340px;
+                            }
+
+              /*IT courses*/
+                  .co-csit,.co-beit,.co-bit-soft,.colleges{
+                                             width: 340px;
+                                             }
+ 
+                  .csit-desc,.beit-desc,.it-desc,.clz-desc{ 
+                                          width: 340px;          
+                                          }
+
+                /*Our team*/
+
+                   .team-content img{
+                                  max-height: 340px;
+                                  max-width: 230px;
+                                 }
+      }
+
+      @media only screen and (max-width:834px){
+                    /* about us*/
+                 .about-img img{
+                                 width: 300px;
+                 }
+
+                   /*services*/
+                  .ltg, .un, .nai, .ce{
+                             width:300px;
+                            }
+
+                 .ltg-desc, .un-desc, .nai-desc, .ce-desc{
+                             width: 300px;
+                             padding-left: 2px;
+                            }
+
+              /*IT courses*/
+                  .co-csit,.co-beit,.co-bit-soft,.colleges{
+                                             width: 300px;
+                     }
+ 
+                  .csit-desc,.beit-desc,.it-desc,.clz-desc{ 
+                                          width: 300px; 
+                      }
+
+              /*Contact us*/
+                  .ph-n-mail{
+                              margin-top:8%;
+                             }
+
+                      .team-content img{
+                                  max-height: 280px;
+                                  max-width: 200px;
+                                 }
+                     
+                     .links{
+                             top: 170px;
+                             margin-left: 0px;
+                             width:100%;
+                     }
+
+                  /*our-team*/
+                     .team-content .desc p{
+                           font-size: 80%;
+                  }
+
+       }
+       
+         @media only screen and (max-width:750px){
+                    /*header*/
+                       .about-head{  
+                                max-width: 90%;
+                        }
+
+                     .social-media img{
+                                 height: 70px;
+                                 width: 70px;
+                             }
+ 
+
+                   /*about us*/    
+                     .img-n-content{
+                                     flex-direction: column;
+                                    }
+
+                         .about-img{ 
+                                     max-width: 100%;  
+                                    }
+                         .about-img img{
+                                      height: 450px;
+                                      width: 450px;
+                          }
+                        
+             /*services*/
+              .ltg, .un, .nai, .ce{
+                             width:280px;
+                             height: 180px;
+                            }
+
+                 .ltg-desc, .un-desc, .nai-desc, .ce-desc{
+                             width: 280px;
+                             height: 180px;
+                            }
+
+              /*IT courses*/
+                  .co-csit,.co-beit,.co-bit-soft,.colleges{
+                                             width: 290px;
+                                             height: 200px;
+                                           }
+ 
+                  .csit-desc,.beit-desc,.it-desc,.clz-desc{ 
+                                          width: 290px; 
+                                          height: 200px;
+                                          padding: 10px;
+                                          }
+
+                    #download{
+                           font-size: 21px;
+                    }
+
+              /*Contact us*/
+                   .cntd{
+                          display:flex;
+                          flex-direction: column-reverse;
+                  }
+
+                   .form{
+                           width: 100%;
+                  }
+  
+                   .ph-n-mail{
+                           width: 100%;
+                           margin-top: 5%;
+                           margin:0px 20px;
+                           padding: 20px 0px;
+                  }
+
+            /*Our team*/
+
+                     .our-team {
+                         padding:40px;
+                         margin-top: 25px;
+                        }
+
+                    .team-members{
+                        flex-direction: column;
+                        align-items: center;
+                         justify-content: center;
+                      }
+
+                   .team-content img{
+                        max-height: 350px;
+                        max-width: 250px;
+                       }
+
+                   .team-content .desc{
+                         width: 90%;
+                         margin-left: 10px;
+                   }
+
+                   .team-content .desc p{
+                           font-size: 90%;
+                  }
+
+
+                      .links{
+                             display: block;
+                             width: 240px; 
+                             top: 200px;
+                             left: 15px;
+                     } 
+
+                     .he-pro p,.cntd-us p,.our-goal p{
+                         font-size: 16px;
+                    }
+ 
+           } 
+
+               @media only screen and (max-width:710px){
+            
+             /*services*/
+                  .ltg, .un, .nai, .ce{
+                             width:260px;
+                             height: 190px;
+                            }
+
+                 .ltg-desc, .un-desc, .nai-desc, .ce-desc{
+                             width: 260px;
+                             height: 190px;
+                            }
+
+               /*IT courses*/
+                  .co-csit,.co-beit,.co-bit-soft,.colleges{
+                                             width: 270px;
+                                             }
+ 
+                  .csit-desc,.beit-desc,.it-desc,.clz-desc{ 
+                                          width: 270px;
+                                          padding: 3px;         
+                                          }
+
+              /*footer*/
+                  .footer-items{
+                          flex-direction: column;
+                          align-items:center;
+                  }
+
+                  .he-pro, .our-goal, .useful-links, .cntd-us{
+                           width:350px;
+                           margin:0px;
+                   }
+
+                   .cntd-us{
+                           height: 200px;
+                   }
+            }
+
+          @media only screen and (max-width:641px){
+                  /* header*/
+                     #head_para{
+                          font-size: 90%;
+                     }
+
+                 /*   services*/
+                       .ltg, .un, .nai, .ce{
+                             width:300px;
+                             height: 180px;
+                       }
+
+                      .ltg-desc, .un-desc, .nai-desc, .ce-desc{
+                             width: 300px;
+                             height: 180px;
+                            }
+
+                  /* IT-courses*/
+                   .co-csit,.co-beit,.co-bit-soft,.colleges{
+                                             width: 300px;
+                                             height: 200px;
+                                             }
+ 
+                  .csit-desc,.beit-desc,.it-desc,.clz-desc{ 
+                                          width: 300px;  
+                                          height: 200px;       
+                                          }
+       }
+        
+           @media only screen and (max-width:482px){
+             
+
+                     /*about us*/
+                     .about-img img{
+                                      height: auto;
+                                      margin: 20px 0px;
+                                      width: 350px;
+                          }
+
+                      .icon{
+                              height: 80px;
+                              padding-top: 30px;
+                             }
+
+
+                         .about-content{
+                                        margin: 5px;
+                                        padding: 5px;
+                                      }
+         }
+
+          @media only screen and (max-width:440px){
+
+                  .footer p,a{
+                             font-size: 15px;
+                  }
+                     /* header*/
+                     #head_para{
+                          font-size: 88%;
+                     }
+
+                        .main-content{
+                            padding-top: 120px;
+                        }
+
+                     /*about us*/
+                      .icon{
+                              height: 100px;
+                              padding-top: 40px;
+                              margin: 2px;
+                             }
+
+                      /*our-team*/
+                        .team-content .desc p{
+                           font-size: 100%;
+                      }
+
+
+                      /*contact-us*/
+                         .form{
+                            padding: 5px;
+                         }
+
+                      /*footer*/
+                        .useful-links ul li{
+                              height: 100px;
+                              width: 160px;
+                            }
+         }
+
+          @media only screen and (max-width:410px){
+                    
+                  .footer p,a{
+                             font-size: 14px;
+                  }
+
+                  .main-footer p{
+                             font-size: 16px;
+                  }
+                     /*header*/
+                        #head_para{  
+                          font-size: 85%;
+                        }
+
+                        .navmenu{
+                            margin-right: 10px;
+                        }
+
+                        .menulines{
+                            font-size: 85%;
+                        }
+
+                     /* about-us*/
+                       .about-img img{
+                                      width: 320px;
+                          }
+
+                       .icon{
+                              height: 112px;
+                              padding-top: 50px;
+                              margin: 5px;
+                             }
+
+                      /*footer*/
+                   .he-pro, .our-goal, .useful-links, .cntd-us{
+                           max-width: 100%;
+                          }
+         }
+
+          @media only screen and (max-width:380px){
+                      .about-us,.services,.IT-Courses,.our-team,.contact-us,.main-content{
+                             font-size: 16px;
+                  }
+
+                  .footer p,a{
+                             font-size: 14px;
+                  }
+                     /* header*/
+                       #main-content{
+                           padding-top: 0px;
+                           margin: 0px 10px;
+                       }
+
+                       .social-media{
+                            margin-top: 2px;
+                            margin:0px 10px;
+                       }
+
+                     /*about us*/
+                          .icon{
+                              height: 115px;
+                              padding-top: 50px;
+                             }
+
+                           .about-content{
+                                  width: 100%;
+                                  margin: 10px;
+                                  padding: 2px;
+                             }
+
+
+                  /* contact-us*/
+                      .ph-n-mail{
+                                  text-align: left;
+                                  margin:0px 20px;
+                                  padding: 20px 0px;
+                      }
+
+         }
+
+          @media only screen and (max-width:370px){
+                     .ph-n-mail{
+                          font-size: 90%;
+                     }
+
+                     /*about us*/
+                        .icon{
+                              height: 115px;
+                              padding-top: 40px;
+                             }
+         }
+
+          @media only screen and (max-width:362px){
+                       /*about us*/
+                        .about-us{
+                              padding: 20px;
+                        }
+
+                        .icon{
+                              height: 112px;
+                              padding-top: 45px;
+                              margin: 5px;
+                        }
+
+                       /* contact us*/
+                         .button{
+                              width: 70%;
+                         }
+
+                         .ph-n-mail{
+                              margin: 0px;
+                              overflow-wrap: wrap;
+                         }
+
+                         .name,.email,.subject,.message{
+                              margin: 10px 0px;
+                         }
+
+                     /*   services*/
+                       .ltg, .un, .nai, .ce{
+                             width:270px;
+                             margin-left: 0px;
+                       }
+
+                      .ltg-desc, .un-desc, .nai-desc, .ce-desc{
+                             width: 270px;
+                             padding: 10px;
+                       }
+
+                   /* IT-courses*/
+                   .co-csit,.co-beit,.co-bit-soft,.colleges{
+                              width: 270px;
+                    }
+ 
+                  .csit-desc,.beit-desc,.it-desc,.clz-desc{ 
+                          width: 270px;
+                          padding: 5px  4px;        
+                    }
+         }
+
+        @media only screen and (max-width:343px){ 
+                   /*header*/
+                        #head_para{  
+                          font-size: 80%;
+                        }
+
+                        .navmenu{
+                            margin-right: 2px;
+                        }
+
+                      /*about us*/
+                        .about-img img{
+                               width: 280px;
+                          }
+
+                            .icon{
+                              height: 130px;
+                              padding-top: 45px;
+                              margin: 2px;
+                             }
+
+                     /*   services*/
+                       .ltg, .un, .nai, .ce{
+                             width:260px;
+                       }
+
+                      .ltg-desc, .un-desc, .nai-desc, .ce-desc{
+                             width: 260px;
+                             padding: 10px;
+                            }
+
+                   /*contact-us  */
+                      .ph-n-mail{
+                        font-size: 90%;
+                      }
+
+                      .contact-us{
+                           padding:20px 10px;
+                      }
+
+                      .cntd{
+                            padding: 0px;
+                     }
+
+            }
+
+                @media only screen and (max-width:310px){  
+                      
+                        .main-content{
+                            padding-top: 110px;
+                        }              
+                      /*about us*/
+                        .about-img img{
+                               width: 240px;
+                          }
+
+                            .icon{
+                              height: 130px;
+                              padding-top: 45px;
+                              margin: 2px;
+                             }
+
+                     /*   services*/
+                       .ltg, .un, .nai, .ce{
+                             width:255px;
+                       }
+
+                      .ltg-desc, .un-desc, .nai-desc, .ce-desc{
+                             width: 255px;
+                             padding: 5px;
+                            }
+
+                   /* IT-courses*/
+                   .co-csit,.co-beit,.co-bit-soft,.colleges{
+                                             width: 265px;
+                                             }
+ 
+                  .csit-desc,.beit-desc,.it-desc,.clz-desc{ 
+                                          width: 265px;
+                                          padding: 0px;         
+                                          }    
+        }

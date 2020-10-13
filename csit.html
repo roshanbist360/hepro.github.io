@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	       <title>CSIT</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" type="text/css" href="style.css">
+         <link rel="stylesheet" type="text/css" href="csit.css">
+        <!--  <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet"> -->
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="header" id="header">
+
+      	<div class="main-nav">
+
+              <div class="helloprogrammers">
+                   <p id="head_para"> <span class="anm">Hello Programmers</span></p>  
+              </div>
+                  
+            <div>
+      	          	<ul>
+      		              	<li>
+      			                	<a href="index.html">Home</a>
+                              <a href="index.html#about-us">About Us</a>
+                              <a href="index.html#services">Services</a>
+                              <a href="index.html#itcourses">IT-Courses</a>
+                              <a href="index.html#team">Team</a>
+                              <a href="index.html#contact-us">Contact-Us</a>
+      		              	</li>
+                  	</ul>
+                             <!-- Below  code is for responsive side menu for mobile and other medium devices -->
+                                <div class="navmenu">
+
+                                         <div>
+                                              <span class="menulines" onclick="openNav()">&#9776;</span>
+                                        </div>
+
+                                        <div class="sidenav" id="mySidenav">
+                                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                                                 &times;  <!--  shortcut for cross sign -->
+                                            </a>
+
+                                                <li id="list">
+                                                   <a href="index.html#header" class="fa fa-home">&ensp;Home</a>
+                                                   <br>
+                                                   <a href="#index.htmlabout-us" class="fas fa-newspaper">&ensp;About Us</a>
+                                                   <br>
+                                                   <a href="index.html#services" class="fa fa-server">&ensp;Services</a>
+                                                   <br>
+                                                    <a href="index.html#itcourses" class="fas fa-sticky-note">&ensp;IT-Courses</a>
+                                                            <a class="itdown" href="csit.html">CSIT</a>
+                                                            <a class="itdown" href="beit.html">BE.IT</a>
+                                                    <br>
+                                                   <a href="index.html#team"class="fas fa-users">&ensp;Team</a>
+                                                   <br>
+                                                   <a href="index.html#contact-us" class="fas fa-phone">&nbsp;Contact-Us</a>
+                                                </li>
+                                          </div>
+                                  </div>
+                                 <!--  End of mobile responsive side menu -->
+      	    </div>
+        </div>
+    </div> 
+     <!-- ------------------Header section ends and actual csit section starts------------------------------
+      ------------------------------------------------------------------------------------------------------>
+     
+     <br><br><br>
+
+<div class="content1" onclick="closeNav()">
+    <div class="csit-head-img">
+       <img src="tu.jpg">   <!-- for TU csit img -->
+    </div>
+
+        <h4 class="txt10">Click below button to download respective semister notes and other study stuffs.</h4>
+    <div class="select-sem">
+          <button  class="sem-slt" id="slt-sem" onclick="openCloseSem()">Click Here To Select Your Semister</button>
+    </div>
+
+     <!-------------------------------- Dropdown menu for selecting semister starts -----------------------
+        --------------------------------------------------------------------------------------------->
+          <div class="dropdown-sem" id="sem-ctrl"> 
+
+                   <div class="box">
+                     <a onclick="openCloseSem1()">Semester I</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl1">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+              
+                   <div class="box">
+                     <a onclick="openCloseSem2()">Semester II</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl2">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+              
+                   <div class="box">
+                     <a onclick="openCloseSem3()">Semester III</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl3">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+              
+                   <div class="box">
+                     <a onclick="openCloseSem4()">Semester IV</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl4">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+                  
+                   <div class="box">
+                     <a onclick="openCloseSem5()">Semester V</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl5">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+              
+                   <div class="box">
+                     <a onclick="openCloseSem6()">Semester VI</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl6">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+   
+                   <div class="box">
+                     <a onclick="openCloseSem7()">Semester VII</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl7">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+              
+                   <div class="box">
+                     <a onclick="openCloseSem8()">Semester VIII</a>
+                   </div>
+                     <div class="box2" id="sem-ctrl8">
+                       <a href="">Books</a><br>
+                       <a href="">Micro-Syllabus</a><br>
+                       <a href="">Notes</a><br>
+                       <a href="">Old Questions</a>
+                      </div>
+          </div>
+
+        <!-------------------------------- Dropdown menu for selecting semister ends -----------------------
+        --------------------------------------------------------------------------------------------->
+
+</div>  <!-- Content1 ends  -->
+      
+     
+    <div class="content2" onclick="closeNav()">
+     	 <h2 class="hdr">About CSIT</h2>
+       <div>
+      	<p>Bachelors of Science in Computer Science and Information Technology (BSc. CSIT) is a four year course affiliated to Tribhuvan University designed to provide the student with all sorts of knowledge in the field of Information Technology and Computing. Currently 57 Colleges offers B.Sc CSIT program in Nepal.</p>
+       </div>
+        
+       <div>
+        <br>
+     	  <p class="hdr2">Best IT Course in Nepal</p>
+        <p>BSc CSIT program involves, in addition to conventional lectures, a great deal of practical and project works. The program develops the underlying principles of both Computer Science and Information Technology and shows how these principles can be applied to real world problems. This program develops the skills that are essential for both computer professionals and IT specialists.</p>
+       </div>
+
+       <div>
+           <div class="csit-head-img">
+             <img src="tu2.jpg">       <!--  TU csit admission img -->
+          </div>
+
+         <h2 class="hdr">Admission Criteria</h2>
+          <p>A student eligible to study the B.Sc. CSIT course should collect and submit the admission form from any of the B.Sc. CSIT colleges. The admission form generally opens during Shrawan / Bhadra every year.</p>
+             <br>
+           <p class="hdr2">Entrance Examinations:</p>
+           <p>1.Tribhuvan University, Institute of Science and Technology, Dean office conducts the entrance examination.
+           </p>
+                <br>
+          <p>2.The Entrance Examination will be of 100 Full Marks including the subjects of Intermediate/10+2 level or equivalent incorporating English, Mathematics, Physics and Chemistry subjects and the pass marks is 35.
+          </p>
+                 <br>
+          <p>3.All the Questions of Entrance Examination will be Objective Type (MCQs).</p>
+           <br>
+           <p>4.The Examination Time Duration will be of 2 hours.</p>
+
+
+
+           <br>
+          <p class="hdr2">Eligibility:</p>
+          <p>The candidate should must:</p>
+          <br>
+          <p>1.Completed a twelve year of schooling in the science stream or equivalent from any university, board or institution recognized by TU.</p>
+             <br>
+          <p>2.Secured a minimum of second division in their +2 or equivalent OR should have secured at least C in all subjects in Grade 11 and Grade 12 by taking Physics and Mathematics of 100 marks.</p>
+             <br>
+          <p>3.Passed A level in Science (have studied Physics and Mathematics of 100 marks) and passed at least in D Grade.
+          </p>
+             <br>
+          <p>4.Passed 3 Years Diploma in Engineering program from CTEVT taking both Physics and Mathematics.</p>
+            <br>
+          <p>5.Have successfully passed the entrance examination conducted by TU securing at least 35% marks. Compiled with all the application procedures.</p>
+            <br>
+          <p class="hdr2">Note:</p> <p>Both Bio And Phy Group of students of +2 are elligible.</p>
+        </div>
+      </div> <!-- content2 div finished -->
+
+      
+
+   <div class="content3" onclick="closeNav()">
+       <div>
+         <h2 class="hdr">Job Prospects</h2>
+         <p>Those who are analytical, good at problem-solving and can pay attention to detail might enjoy a computer science career. It is a promising field with employment outlook ranging from average to much faster than average over the next several years.
+            <br><br>
+          Creativity is essential for those computer science majors who hope to come up with the latest app or technology gadget. Given the rapid rate of change within technology, computer science majors need to have a thirst for learning to keep up with the latest developments.</p>
+       </div>
+          
+           <br> <p class="hdr2">&ensp; The right job for you will depend on your personal skills, values, and interests.</p>
+           <br>
+        <div class="joblist">
+         <p>
+            1.Software Developer
+                <br>
+            2.DAtabase Administration
+               <br>
+            3.Computer Hardware Engineer
+               <br>
+            4.Computer System Analyst
+               <br>
+            5.Computer Network Architect
+               <br>
+            6.Web Developer
+               <br>
+            7.Information SEcurity Analyst
+               <br>
+            8.Computer and Information Research Scientist
+               <br>
+            9.Computer and Information Systems MAnagers
+               <br>
+           10.IT Project Manager
+         </p>
+        </div>
+    </div>   <!-- content3 div finished -->
+
+  
+ <div class="content4" onclick="closeNav()">
+                      <h2 class="hdr">Curricular Structures</h2>
+                            <br>
+                  <p>Bsc.CSIT program consists of following courses:</p>
+
+   <div class="table12">   
+    <table>
+        <th></th>
+        <th class="hdr3">Semister I</th>
+        <th></th>
+      <tr>
+    	 <th>Course Code</th>
+    	 <th>Course Title</th>
+    	 <th>Credit Hours</th>
+     </tr>
+
+     <tr>
+         <td>CSC109</td>
+       	 <td>Introduction to Information Technology</td>
+       	 <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC110</td>
+         <td>C Programming</td>	
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC111</td>
+         <td>Digital Logic</td>	
+         <td>3</td>
+      </tr>
+   
+       <tr>
+         <td>MTH112</td>	
+         <td>Mathematics I</td>	
+         <td>3</td>
+       </tr>
+
+       <tr>
+          <td>PHY113</td>	
+          <td> Physics</td>	
+          <td>3</td>
+       </tr>
+   </table>
+
+
+<table>
+        <th></th>
+        <th class="hdr3">Semister II</th>
+        <th></th>
+    <tr>
+    	<th>Course Code</th>
+    	<th>Course Title</th>
+    	<th>Credit Hours</th>
+    </tr>
+
+     <tr>
+         <td>CSC160</td>
+       	 <td>Discrete Structure</td>
+       	 <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC161</td>
+         <td>OOP with C++</td>	
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC162</td>
+         <td>Microprocessor</td>	
+         <td>3</td>
+      </tr>
+   
+       <tr>
+         <td>MTH163</td>	
+         <td>Mathematics II</td>	
+         <td>3</td>
+       </tr>
+
+       <tr>
+          <td>STA164</td>	
+          <td>Statistics I</td> 	
+          <td>3</td>
+       </tr>
+</table>
+</div> <!-- table 1 and 2 under one div for display flex end -->
+
+<div class="table12">
+<table>
+        <th></th>
+        <th class="hdr3">Semister III</th>
+        <th></th>
+    <tr>
+    	<th>Course Code</th>
+    	<th>Course Title</th>
+    	<th>Credit Hours</th>
+    </tr>
+
+     <tr>
+         <td>CSC206</td>
+       	 <td>Data Structure and Algorithm</td>
+       	 <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC207</td>
+         <td>Numerical Method</td>	
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC208</td>
+         <td>Computer Architecture</td>	
+         <td>3</td>
+      </tr>
+   
+       <tr>
+         <td>CSC209</td>	
+         <td>Computer Graphics</td>	
+         <td>3</td>
+       </tr>
+
+       <tr>
+          <td>STA210</td>	
+          <td>Statistics II</td> 	
+          <td>3</td>
+       </tr>
+</table>
+
+<table>
+       <th></th>
+        <th class="hdr3">Semister IV</th>
+        <th></th>
+    <tr>
+      <th>Course Code</th>
+      <th>Course Title</th>
+      <th>Credit Hours</th>
+    </tr>
+
+     <tr>
+         <td>CSC257</td>
+         <td>Theory of Computation</td>
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC258</td>
+         <td>Computer Networks</td>  
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC259</td>
+         <td>Operating Systems</td> 
+         <td>3</td>
+      </tr>
+   
+       <tr>
+         <td>CSC260</td>  
+         <td>Database and Management System</td> 
+         <td>3</td>
+       </tr>
+
+       <tr>
+          <td>CSC261</td> 
+          <td>Artificial Intelligence</td>  
+          <td>3</td>
+       </tr>
+</table>
+</div>
+
+<div class="table12">
+<table>
+       <th></th>
+        <th class="hdr3">Semister V</th>
+        <th></th>
+    <tr>
+      <th>Course Code</th>
+      <th>Course Title</th>
+      <th>Credit Hours</th>
+    </tr>
+
+     <tr>
+         <td>CSC314</td>
+         <td>Design and Analysis of Algorithms</td>
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC315</td>
+         <td>System Analysis and Design</td>  
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC316</td>
+         <td>Cryptography</td> 
+         <td>3</td>
+      </tr>
+   
+       <tr>
+         <td>CSC317</td>  
+         <td>Simulation and Modeling</td> 
+         <td>3</td>
+       </tr>
+
+       <tr>
+          <td>CSC318</td> 
+          <td>Web Technology</td>  
+          <td>3</td>
+       </tr>
+
+       <tr>
+          <td> </td>
+          <td>Elective I</td>
+          <td>3</td>
+       </tr>
+</table>
+
+
+<table>
+       <th></th>
+        <th class="hdr3">Semister VI</th>
+        <th></th>
+    <tr>
+      <th>Course Code</th>
+      <th>Course Title</th>
+      <th>Credit Hours</th>
+    </tr>
+
+     <tr>
+         <td>CSC364</td>
+         <td>Software Engineering</td>
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC365</td>
+         <td>Computer Design and Construction</td>  
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC366</td>
+         <td>E-Governance</td> 
+         <td>3</td>
+      </tr>
+   
+       <tr>
+         <td>CSC367</td>  
+         <td>Net Centric Computing</td> 
+         <td>3</td>
+       </tr>
+
+       <tr>
+          <td>CSC368</td> 
+          <td>Technical Writing</td>  
+          <td>3</td>
+       </tr>
+
+       <tr>
+          <td> </td>
+          <td>Elective II</td>
+          <td>3</td>
+       </tr>
+</table>
+</div>
+
+<div class="table12">
+<table>
+       <th></th>
+        <th class="hdr3">Semister VII</th>
+        <th></th>
+    <tr>
+      <th>Course Code</th>
+      <th>Course Title</th>
+      <th>Credit Hours</th>
+    </tr>
+
+     <tr>
+         <td>CSC409</td>
+         <td>Advanced Java</td>
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC410</td>
+         <td>Data Warehousing and Data Mining </td>  
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>MGT411</td>
+         <td>Principle of Management</td> 
+         <td>3</td>
+      </tr>
+   
+       <tr>
+         <td>CSC412</td>  
+         <td>Project Work</td> 
+         <td>3</td>
+       </tr>
+
+       <tr>
+          <td> </td> 
+          <td>Elective III</td>  
+          <td>3</td>
+       </tr>
+</table>
+
+
+<table>
+       <th></th>
+        <th class="hdr3">Semister VIII</th>
+        <th></th>
+    <tr>
+      <th>Course Code</th>
+      <th>Course Title</th>
+      <th>Credit Hours</th>
+    </tr>
+
+     <tr>
+         <td>CSC461</td>
+         <td>Advanced Database</td>
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td>CSC462</td>
+         <td>Internship</td>  
+         <td>3</td>
+      </tr>
+
+      <tr>
+         <td> </td>
+         <td>Elective IV</td> 
+         <td>3</td>
+      </tr>
+   
+       <tr>
+         <td> </td>  
+         <td>Elective V</td> 
+         <td>3</td>
+       </tr>
+
+</table>
+</div>
+
+</div>
+</div> <!-- Semister with course details finished below starts new div -->
+     
+<div class="content5" onclick="closeNav()">
+     <div class="we-provide">
+          <h3>What We Provide:</h3>
+                    <br>
+                 <p>=>Updated Best Notes:</p>
+                 <p>=>Syllabus and Micro-Syllabus:</p>
+                 <p>=>Old questions and some solutions:</p>
+                 <p>=>Books and other study stuffs:</p> 
+     </div>
+
+     <div class="contact-me-4-queries">
+                <h3>Contact Me For Any Queries Related to CSIT</h3>
+         <div class="team-members">
+                <div class="team-content">
+                  <div class="team-img">
+                       <img src="roshan.jpg">
+                  </div>
+
+                  <div class="links">
+                      <a href="https://www.facebook.com/roshanbist.roshanbist.3"target="_blank"> <i class="fab fa-facebook fa-2x"></i> </a>
+                      <a href="https://twitter.com/bist360" target="_blank">  <i class="fab fa-twitter fa-2x"></i> </a>
+                      <a href="https://www.linkedin.com/in/roshan-bist" target="_blank"> <i class="fab fa-linkedin-in fa-2x"></i> </a> 
+                  </div>
+                            <div class="desc"><p>Roshan Bist (Bsc.CSIT-TU)</p></div>
+              </div>
+         </div>
+     </div>
+  </div>
+
+   <!-- ---------------------------------------------------------------------------------
+    ----------------------------footer section starts-------------------------------------->
+     <div class="footer" onclick="closeNav()">
+       <div class="footer-items">
+         <div class="he-pro">
+            <h3>HELLO PROGRAMMERS</h3>
+            <p>We happy to share our knowledge and course stuffs to our friends studying IT in Nepal. We want to see IT students 
+                  creative to compete with changing world.</p>
+         </div>
+        
+         <div class="useful-links">      
+                       <h3>USEFUL LINKS</h3> 
+                              <a href="#header">Home</a>
+                              <br>
+                              <a href="#about-us">About Us</a>
+                              <br>
+                              <a href="#services">Services</a>
+                              <br>
+                              <a href="csit.html">CSIT</a>
+                              <br>
+                              <a href="beit.html">BE.IT</a> 
+         </div>
+
+         <div class="cntd-us">
+              <h3>CONTACT-US</h3>
+            <div class="cntd-cont">
+              <p>Kathmandu Province-3 Nepal, 44600</p>
+              <h4>Phone:</h4>
+                       <p>  CSIT: 9806470952</p>
+                       <p> BE.IT: 9861389963</p>
+
+             <div class="icn">
+              <a href="https://www.facebook.com/helloprogrammers/"target="_blank"> <i class="fab fa-facebook fa-2x"></i> </a>
+              <a href="https://www.youtube.com/channel/UC_fm-Kx9DAmCu4lTgrI8FJg"target="_blank"> </a>
+              <a> <i class="fab fa-youtube fa-2x"></i> </a>
+              <a href="helloprogrammers360@gmail.com"> <i class="fas fa-envelope-open-text fa-2x" id="msg"></i> </a>
+             </div>
+            </div>
+         </div>
+
+         <div class="our-goal">
+            <h3>OUR GOAL</h3>
+            <p>All the essential notes of CSIT, BEIT, BIT and BE.Soft for Nepalese IT students with lots of news and information regarding new Technology...</p>
+         </div>
+
+     </div>   
+  </div><!--footer section ends and main-footer section starts-->
+
+                <div class="main-footer">
+                            <p>&copy; Copyright Hello Programmers.<br> All rights reserved.</p>
+                </div> 
+
+
+           <!--  ------------------------ javascript starts-------------------------- -->
+        <script type="text/javascript">
+          // for responsive sidebar navigation menu of header navigation
+           function openNav(){
+                  document.getElementById('mySidenav').style.width="200px";
+           }
+
+            function closeNav(){
+                  document.getElementById('mySidenav').style.width="0";
+            } // responsive sidebar navigation menu ends
+
+
+           // for dropdown select semister
+                  var state=0;  //state value 0 for closed dropdown state and 1 for opened state
+           function openCloseSem(){
+                if(state==0) {   
+                               openSem();
+                               state++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem();
+                                state--;
+                                return false;   
+                     }
+           }
+
+           function openSem(){
+                   document.getElementById('sem-ctrl').style.display="block";
+           }
+
+            function closeSem(){
+                   document.getElementById('sem-ctrl').style.display="none";
+           }
+
+           // for dropdown after selecting semister,on clicking respective semister
+                  var stat=0;  //state value 0 for closed dropdown state and 1 for opened state
+           function openCloseSem1(){
+                if(stat==0) {   
+                               openSem1();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem1();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem1(){
+                   document.getElementById('sem-ctrl1').style.display="block";
+           }
+
+            function closeSem1(){
+                   document.getElementById('sem-ctrl1').style.display="none";
+           }
+    
+             // for sem2
+           function openCloseSem2(){
+                if(stat==0) {   
+                               openSem2();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem2();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem2(){
+                   document.getElementById('sem-ctrl2').style.display="block";
+           }
+
+            function closeSem2(){
+                   document.getElementById('sem-ctrl2').style.display="none";
+           }
+            
+              // for sem3
+           function openCloseSem3(){
+                if(stat==0) {   
+                               openSem3();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem3();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem3(){
+                   document.getElementById('sem-ctrl3').style.display="block";
+           }
+
+            function closeSem3(){
+                   document.getElementById('sem-ctrl3').style.display="none";
+           }
+
+             // for sem4
+           function openCloseSem4(){
+                if(stat==0) {   
+                               openSem4();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem4();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem4(){
+                   document.getElementById('sem-ctrl4').style.display="block";
+           }
+
+            function closeSem4(){
+                   document.getElementById('sem-ctrl4').style.display="none";
+           }
+            
+              // for sem5
+           function openCloseSem5(){
+                if(stat==0) {   
+                               openSem5();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem5();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem5(){
+                   document.getElementById('sem-ctrl5').style.display="block";
+           }
+
+            function closeSem5(){
+                   document.getElementById('sem-ctrl5').style.display="none";
+           }
+
+             // for sem6
+           function openCloseSem6(){
+                if(stat==0) {   
+                               openSem6();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem6();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem6(){
+                   document.getElementById('sem-ctrl6').style.display="block";
+           }
+
+            function closeSem6(){
+                   document.getElementById('sem-ctrl6').style.display="none";
+           }
+
+             // for sem7
+           function openCloseSem7(){
+                if(stat==0) {   
+                               openSem7();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem7();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem7(){
+                   document.getElementById('sem-ctrl7').style.display="block";
+           }
+
+            function closeSem7(){
+                   document.getElementById('sem-ctrl7').style.display="none";
+           }
+
+             // for sem8
+           function openCloseSem8(){
+                if(stat==0) {   
+                               openSem8();
+                               stat++;
+                               return false;
+                }
+                
+                       else{ 
+                                closeSem8();
+                                stat--;
+                                return false;   
+                     }
+           }
+
+           function openSem8(){
+                   document.getElementById('sem-ctrl8').style.display="block";
+           }
+
+            function closeSem8(){
+                   document.getElementById('sem-ctrl8').style.display="none";
+           }
+        </script>
+</body>
+</html>
